@@ -1,0 +1,92 @@
+/* ===== Reset & Global Styling ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  line-height: 1.6;
+  background: #e0f7fa;         /* Light blue = sky */
+  color: #222;
+  padding: 20px;
+}
+
+/* ===== Header ===== */
+.site-header {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  background: #1b5e20;         /* Green = football pitch */
+  color: white;
+  border: 4px solid #000;      /* Thick black border = stadium boundary */
+}
+
+.subtitle {
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  background: #000;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.navbar a:hover {
+  color: #ffeb3b;              /* Yellow highlight = referee whistle */
+}
+
+/* ===== Main Content ===== */
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* ===== Card Styling ===== */
+.card {
+  background: white;
+  padding: 20px;
+  border: 3px solid #4caf50;   /* Green border = pitch lines */
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.card.highlight {
+  border-color: #f57c00;       /* Orange = energy of the game */
+  background: #fff3e0;         /* Light orange background */
+}
+
+/* ===== Button (Kick Off) ===== */
+.btn {
+  background: #f44336;         /* Red = football team jersey */
+  color: white;
+  border: 2px solid #000;
+  padding: 12px 25px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #d32f2f;
+}
+
+/* ===== Footer ===== */
+.site-footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 15px;
+  background: #000;
+  color: #fff;
+  border-top: 4px solid #1b5e20; /* Green line = pitch line */
+}
